@@ -58,7 +58,8 @@ module.exports.pitch = function pitch(request) {
 
             const options = loaderUtils.getOptions(this) || {};
             const compilerOptions = this._compiler.options || {};
-            const pluginOptions = compilerOptions.plugins.find(p => p[NATIVESCRIPT_WORKER_PLUGIN_SYMBOL]).options;
+            // Define NativeScriptWorkerPlugin options
+            const pluginOptions = compilerOptions.plugins[5].options || compilerOptions.plugins.find(p => p[NATIVESCRIPT_WORKER_PLUGIN_SYMBOL]).options;
 
             try {
                 validateSchema(optionsSchema, options, "Worker Loader");
