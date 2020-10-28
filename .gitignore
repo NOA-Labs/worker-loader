@@ -3,3 +3,4 @@ src/test/expected
 src/test/test.es5.js
 mochawesome-report
 .DS_Store
+.idea

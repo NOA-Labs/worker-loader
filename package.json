@@ -1,0 +1,19 @@
+{
+  "name": "worker-loader",
+  "version": "0.12.2",
+  "description": "<div align=\"center\">\r   <a href=\"https://github.com/webpack/webpack\">\r     <img width=\"200\" height=\"200\" hspace=\"25\" src=\"https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg\">\r   </a>\r   <h1>NativeScript Worker Loader and NativeScriptWorkerPlugin</h1>\r   <p>This is a fork of the official Worker Loader for Webpack.</p> \r </div>",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOA-Labs/worker-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NOA-Labs/worker-loader/issues"
+  },
+  "homepage": "https://github.com/NOA-Labs/worker-loader#readme"
+}
